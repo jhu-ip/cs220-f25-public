@@ -58,7 +58,7 @@ void copy(char dest[][MAX_GRID], char orig[][MAX_GRID], int rows, int cols) {
 // calculate and return total points for a word
 int points(char word[]) {
   // based on original English scrabble point values
-  const static int values[26] = {1, 3, 3, 2, 1, 4, 2, 4,
+  static const int values[26] = {1, 3, 3, 2, 1, 4, 2, 4,
       1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
 
   // TODO: write this function
