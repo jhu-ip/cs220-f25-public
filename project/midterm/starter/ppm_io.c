@@ -127,8 +127,7 @@ void output_dims( const Image im ) {
 }
 
 /* free_image
- * utility function to free inner and outer pointers, 
- * and set to null 
+ * utility function to free inner imaeg pointer and set to null 
  */
 void free_image( Image *im ) {
   // Complete this function
