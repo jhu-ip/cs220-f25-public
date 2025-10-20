@@ -12,7 +12,7 @@ $ ./project data/kitten.ppm results/kitten-blur-5.ppm blur 5
 
 $ ./project data/kitten.ppm results/kitten-blur-05.ppm blur .5
 
-$ ./project data/kitten.ppm data/trees.ppm blend kitten-trees-05.ppm .05 
+$ ./project data/kitten.ppm data/trees.ppm blend kitten-trees-05.ppm .5 
 
 $ ./project data/kitten.ppm results/kitten-crop.ppm crop 100 100 250 250
 
