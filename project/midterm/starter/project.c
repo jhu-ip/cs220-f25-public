@@ -32,5 +32,4 @@ void print_usage(void) {
   printf("   ./project <input-image> <output-image> blur <sigma>\n" );
   printf("   ./project <input-image> <output-image> crop <top left (x,y)> <bottom right (x,y)>\n" );
   printf("   ./project <input-image1> <input-image2> blend <output-image> <alpha>\n" );
-
 }
