@@ -25,12 +25,12 @@ int main (int argc, char* argv[]) {
 }
 
 void print_usage(void) {
-  printf("USAGE: ./project <input-image> <output-image> <command-name> <command-args>\n");
-  printf("SUPPORTED COMMANDS:\n");
-  printf("   grayscale\n");
-  printf("   rotate-ccw\n" );
-  printf("   pointilism\n" );
-  printf("   blur <sigma>\n" );
-  printf("   blend <target image> <alpha>\n" );
-  printf("   crop <top left (x,y)> <bottom right (x,y)>\n" );
+  printf("USAGE:\n");
+  printf("   ./project <input-image> <output-image> grayscale\n");
+  printf("   ./project <input-image> <output-image> rotate-ccw\n" );
+  printf("   ./project <input-image> <output-image> pointilism\n" );
+  printf("   ./project <input-image> <output-image> blur <sigma>\n" );
+  printf("   ./project <input-image> <output-image> crop <top left (x,y)> <bottom right (x,y)>\n" );
+  printf("   ./project <input-image1> <input-image2> blend <output-image> <alpha>\n" );
+
 }
