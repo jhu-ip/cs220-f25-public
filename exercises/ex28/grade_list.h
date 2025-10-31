@@ -64,9 +64,10 @@ private:
   // The following fields MUST REMAIN PRIVATE in
   // your solution
 
-  double * grades;  // dynamically allocated array
   int capacity;     // declared size of the array
   int count;        // number of grades in the array
+  double * grades;  // dynamically allocated array
+
 };
 
 #endif
