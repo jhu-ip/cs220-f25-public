@@ -1,4 +1,4 @@
-Exercise 11-2 (builds on code created last class in Exercise 11-1)
+This exercise builds on code created in the last class - solution provided.
 
 In this exercise, you will transform the int_set.h and int_set.cpp files to make them templated.
 
