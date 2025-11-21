@@ -12,7 +12,7 @@ class MyNode {
   MyNode<T> *next; // pointer to following node
 
   // two-argument constructor
-  MyNode<T>(int d, MyNode<T>* n) : data(d), next(n) { }
+  MyNode<T>(T d, MyNode<T>* n) : data(d), next(n) { }
 
 };  
 
