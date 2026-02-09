@@ -10,14 +10,14 @@ void transpose(int start[][5], int end[][3]) {
 
   for (int r = 0; r < d1; r++)
     for (int c = 0; c < d2; c++) {
-      end[c][r] = start[r][c]; 
+      end[r][c] = start[c][r]; 
     }
 }
 
 /* Print a 2D array of integers
  */
 void print(int table[][3], int rows, int cols) {
-  for (int r = 0; r < rows; r++) { // fixed 
+  for (int r = 1; r < rows; r++) {
     for (int c = 0; c < cols; c++) {
       printf("%d ", table[r][c]);
     }
